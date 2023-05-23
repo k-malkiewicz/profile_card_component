@@ -8,6 +8,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Links
 
+- Live Site URL: (https://profile-card-km9.netlify.app/);
+
 ## Built with
 
 - HTML5
