@@ -1,0 +1,82 @@
+@import 'variables.scss';
+@import 'reset.scss';
+
+
+body {
+    min-height: 100vh;
+    background: url('../img/bg-pattern-top.svg'), url('../img/bg-pattern-bottom.svg'), $bg-body;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 25vh , left 50vw top 25vh;
+    font-family: $font-stack;
+    display: grid;
+    place-items: center;
+}
+
+.profile_card {
+    width: 21.875rem;
+    background: $bg-main;
+    border-radius: .9375rem;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    &_background {
+        height: 8.75rem;
+        background: url('../img/bg-pattern-card.svg');
+    }
+}
+
+.profile_user_image {
+    border: .375rem solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 5.3125rem;
+    transform: translate(-50%, 0);
+}
+
+.profile_user_name {
+    margin: 4.4375rem 0 0;
+    font-size: 1.125rem;
+    span {
+        color: $color-secondary;
+        margin: 0 0 0 .625rem;
+        font-weight: 500;
+    }
+}
+
+.profile_user_place {
+    color: $color-secondary;
+    margin: .625rem 0 0;
+    font-size: .875rem;
+}
+
+.profile_statistics {
+    margin: 1.5625rem 0 0;
+    padding: 1.5625rem 3.125rem;
+    border-top: .0625rem solid $color-border;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_followers,
+.profile_likes,
+.profile_photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .3125rem;
+}
+
+.profile_followers_count,
+.profile_likes_count,
+.profile_photos_count {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.statistic_label {
+    color: $color-secondary;
+    font-size: .625rem;
+    font-weight: 600;
+    letter-spacing: .0625rem;
+}
