@@ -10,14 +10,14 @@ body {
   min-height: 100vh;
   background: url("../img/bg-pattern-top.svg"), url("../img/bg-pattern-bottom.svg"), #19a1ad;
   background-repeat: no-repeat, no-repeat;
-  background-position: right 50vw bottom 25vh, left 50vw top 25vh;
+  background-position: right 50vw bottom 35vh, left 50vw top 35vh;
   font-family: "Kumbh Sans", sans-serif;
   display: grid;
   place-items: center;
 }
 
 .profile_card {
-  width: 350px;
+  width: 21.875rem;
   background: #ffffff;
   border-radius: 0.9375rem;
   position: relative;
@@ -55,8 +55,8 @@ body {
 }
 
 .profile_statistics {
-  margin: 25px 0 0;
-  padding: 25px 50px;
+  margin: 1.5625rem 0 0;
+  padding: 1.5625rem 3.125rem;
   border-top: 0.0625rem solid #e9e9e9;
   display: flex;
   justify-content: space-between;
@@ -68,7 +68,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 5px;
+  gap: 0.3125rem;
 }
 
 .profile_followers_count,
@@ -80,9 +80,9 @@ body {
 
 .statistic_label {
   color: #6a6f81;
-  font-size: 10px;
+  font-size: 0.625rem;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 
 /*# sourceMappingURL=style.css.map */
