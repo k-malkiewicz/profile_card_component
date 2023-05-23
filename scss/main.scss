@@ -35,6 +35,7 @@ body {
 }
 
 .profile_user_name {
+    color: $color-primary;
     margin: 4.4375rem 0 0;
     font-size: 1.125rem;
     span {
@@ -70,8 +71,10 @@ body {
 .profile_followers_count,
 .profile_likes_count,
 .profile_photos_count {
+    color: $color-primary;
     font-size: 1.125rem;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .statistic_label {

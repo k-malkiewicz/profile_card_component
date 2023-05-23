@@ -39,6 +39,7 @@ body {
 }
 
 .profile_user_name {
+  color: #2d3248;
   margin: 4.4375rem 0 0;
   font-size: 1.125rem;
 }
@@ -74,8 +75,10 @@ body {
 .profile_followers_count,
 .profile_likes_count,
 .profile_photos_count {
+  color: #2d3248;
   font-size: 1.125rem;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .statistic_label {
